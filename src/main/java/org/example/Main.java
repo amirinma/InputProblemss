@@ -16,7 +16,8 @@ public class Main {
         // get the user's income
         System.out.println("What is your annual income");
         income = keyboard.nextDouble();
-
+        // consuming the empty line
+        keyboard.nextLine();
         // get the user's name
         System.out.println("What is your name?");
         name = keyboard.nextLine();
